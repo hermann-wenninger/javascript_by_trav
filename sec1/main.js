@@ -164,4 +164,31 @@ const todo = {
         console.log('aaaaaaaaaaaaaaaaaaaaa',o)
     }
 }
-todo.add(333)
+todo.add(333);
+
+for(let i = 0; i<22; i++){
+    console.log(i, 'SDFGHJK')
+    if(i%3 === 0){
+        console.log(33333333333)
+    }
+}
+/*
+let k =0;
+while(k<12){
+    console.log('fffffffffuck',k);
+    k+20;
+}
+*/
+
+const user ={
+    a:1,
+    b:2,
+    d:444,
+    e:555,
+    f:8888,
+}
+for(let x in user){
+    console.log(x,':', user[x])
+}
+
+console.log(window.navigator)
