@@ -129,10 +129,39 @@ const person = {
 
 let val = person.fname;
 console.log(val)
-console.log(person.recap())*/
+console.log(person.recap())
 
 console.time("answer time");
 alert("Click to continue");
 console.timeLog("answer time");
 alert("Do a bunch of other stuff…");
 console.timeEnd("answer time");
+
+setTimeout(console.clear(),13000)
+
+let xyz
+const today = new Date();
+const birthday = new Date(12-23-1973);
+console.log(today)
+console.log( typeof today)
+console.log(birthday)
+
+let x = today.getMonth()+1;
+x = today.getHours();
+x = today.getMinutes();
+x = today.getMilliseconds();
+console.log(x);
+
+const color = 'red';
+switch(color){
+    case 'blue': console.log('asdfghjkl');
+    case 'red': console.log('asdfghjkl');break;*/
+    
+((name)=>console.log("qwerttzuio",name))('hmannnnnn');
+
+const todo = {
+    add:function(o){
+        console.log('aaaaaaaaaaaaaaaaaaaaa',o)
+    }
+}
+todo.add(333)
