@@ -131,3 +131,8 @@ let val = person.fname;
 console.log(val)
 console.log(person.recap())*/
 
+console.time("answer time");
+alert("Click to continue");
+console.timeLog("answer time");
+alert("Do a bunch of other stuff…");
+console.timeEnd("answer time");
