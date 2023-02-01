@@ -155,7 +155,7 @@ console.log(x);
 const color = 'red';
 switch(color){
     case 'blue': console.log('asdfghjkl');
-    case 'red': console.log('asdfghjkl');break;*/
+    case 'red': console.log('asdfghjkl');break;
     
 ((name)=>console.log("qwerttzuio",name))('hmannnnnn');
 
@@ -178,7 +178,7 @@ while(k<12){
     console.log('fffffffffuck',k);
     k+20;
 }
-*/
+
 
 const user ={
     a:1,
@@ -191,4 +191,7 @@ for(let x in user){
     console.log(x,':', user[x])
 }
 
-console.log(window.navigator)
+console.log(window.navigator)*/
+
+console.log(window)
+console.log(document)
