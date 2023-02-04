@@ -42,10 +42,19 @@ list.lastElementChild
 */
 
 //count child elements
+/*
 console.log(l.childElementCount)
 
 console.log(l.parentNode.parentNode.parentNode)
 //parentElementNode
 console.log(l.nextSibling.nextSibling.parentNode.parentElement.attributes)
-console.log(l.nextElementSibling)
+console.log(l.nextElementSibling)*/
+
+const lix = document.createElement('li');
+lix.className = 'collection-items';
+lix.id = 'new-item';
+//lix.setAttribute('title','NewItem');
+lix.appendChild(document.createTextNode('Helllloooow Woooorld'))
+
+
 
