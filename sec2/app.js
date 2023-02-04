@@ -49,12 +49,33 @@ console.log(l.parentNode.parentNode.parentNode)
 //parentElementNode
 console.log(l.nextSibling.nextSibling.parentNode.parentElement.attributes)
 console.log(l.nextElementSibling)*/
-
+/*
 const lix = document.createElement('li');
-lix.className = 'collection-items';
+lix.className = 'collection-item';
 lix.id = 'new-item';
-//lix.setAttribute('title','NewItem');
-lix.appendChild(document.createTextNode('Helllloooow Woooorld'))
+lix.setAttribute('title','NewItem');
+let xx = document.createTextNode('Helllloooow Woooorld')
+lix.appendChild(xx);
 
+const link = document.createElement('a');
+link.className = 'delete-item secondary-content';
+link.innerHTML = '<i class="fa fa-remove"></i>'
+
+lix.appendChild(link)
+
+console.log(lix)
+document.querySelector('ul.collection').appendChild(lix);
+
+
+const newHead = document.createElement('h2');
+newHead.id = 'task-title';
+newHead.appendChild(document.createTextNode('Task List'));
+
+
+const oldHead = document.getElementById('task-title');
+const cardAction = document.querySelector('.card-action');
+
+cardAction.replaceChild(newHead, oldHead);
+*/
 
 
