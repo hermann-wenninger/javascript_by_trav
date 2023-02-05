@@ -76,4 +76,22 @@ newHead.appendChild(document.createTextNode('Task List'));
 const oldHead = document.getElementById('task-title');
 const cardAction = document.querySelector('.card-action');
 
-cardAction.replaceChild(newHead, oldHead);*/
+cardAction.replaceChild(newHead, oldHead);
+
+document.querySelector('.fa-remove').addEventListener('click', function(e){
+    e.preventDefault()
+    console.log('helllloooo', e,e.bubbles)
+});
+*/
+const clearButt = document.querySelector('.clear-tasks');
+const card = document.querySelector('.card');
+const head = document.querySelector('h5');
+
+clearButt.addEventListener('click', runEvent);
+
+
+function runEvent(e){
+    console.log(e)
+};
+
+//console.log(clearButt);
