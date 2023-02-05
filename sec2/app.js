@@ -92,6 +92,7 @@ const head = document.querySelector('h5');
 
 const form = document.querySelector('form');
 const taskInput = document.getElementById('task');
+const head = document.querySelector('h5');
 //taskInput.value = '';
 
 
@@ -101,9 +102,14 @@ const taskInput = document.getElementById('task');
 
 
 function run(e){
+    e.preventDefault()
     console.log(`eventtype: ${e.type}`);
     console.log('sdfghjklüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüü');
-    console.log(taskInput.value)
+    console.log(taskInput.value);
+    head.innerText=taskInput.value;
+    if(e.target.parentElement.classList.contains('delete-item')){
+        console.log('del-item')
+    }
 };
 
 console.log('asdfghjklöppppppppppppppppppppppp');
