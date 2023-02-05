@@ -82,16 +82,29 @@ document.querySelector('.fa-remove').addEventListener('click', function(e){
     e.preventDefault()
     console.log('helllloooo', e,e.bubbles)
 });
-*/
-const clearButt = document.querySelector('.clear-tasks');
+
+
+const clearBtn = document.querySelector('.aaa');
 const card = document.querySelector('.card');
 const head = document.querySelector('h5');
+*/
 
-clearButt.addEventListener('click', runEvent);
+
+const form = document.querySelector('form');
+const taskInput = document.getElementById('task');
+//taskInput.value = '';
 
 
-function runEvent(e){
-    console.log(e)
+
+//clearBtn.addEventListener('click', runEvent);
+//clearBtn.addEventListener('dbclick', runEvent);
+
+
+function run(e){
+    console.log(`eventtype: ${e.type}`);
+    console.log('sdfghjklüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüü');
+    console.log(taskInput.value)
 };
 
-//console.log(clearButt);
+console.log('asdfghjklöppppppppppppppppppppppp');
+form.addEventListener('submit', run);
