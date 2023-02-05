@@ -1,3 +1,4 @@
+/*
 const a = document.getElementById('task-title')
 console.log(a)
 let lis = document.getElementsByTagName('li')
@@ -13,8 +14,8 @@ lis.forEach((li, index)=>{
     lis[3].textContent= 'ASDFGHZUJIKLO'
 })
 
-//const i = document.querySelectorAll('ul.collection li.collection-item')
-//console.log(i)
+const i = document.querySelectorAll('ul.collection li.collection-item')
+console.log(i)
 
 let v;
 const l = document.querySelector('ul.collection');
@@ -33,23 +34,23 @@ k[0].textContent = 'alabaster'
 k = l.firstElementChild;
 console.log(k.style.color='red')
 
-/*
+
 list.firstChild
 list.firstElementChild
 
 list.lastChild
 list.lastElementChild
-*/
+
 
 //count child elements
-/*
+
 console.log(l.childElementCount)
 
 console.log(l.parentNode.parentNode.parentNode)
 //parentElementNode
 console.log(l.nextSibling.nextSibling.parentNode.parentElement.attributes)
-console.log(l.nextElementSibling)*/
-/*
+console.log(l.nextElementSibling)
+
 const lix = document.createElement('li');
 lix.className = 'collection-item';
 lix.id = 'new-item';
@@ -75,7 +76,4 @@ newHead.appendChild(document.createTextNode('Task List'));
 const oldHead = document.getElementById('task-title');
 const cardAction = document.querySelector('.card-action');
 
-cardAction.replaceChild(newHead, oldHead);
-*/
-
-
+cardAction.replaceChild(newHead, oldHead);*/
